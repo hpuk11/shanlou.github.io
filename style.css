@@ -1,128 +1,66 @@
-/* ——— Basic Reset ——— */
-* {
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdfdfd;
+  color: #111;
+  text-align: center;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-/* ——— Body ——— */
-body {
-  font-family: "Georgia", serif;
-  background-color: #faf9f7;
-  color: #222;
-  line-height: 1.7;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-}
-
-/* ——— Header ——— */
 header {
-  width: 100%;
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 3rem;
+  padding: 50px 20px 20px;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem 0;
-  gap: 1rem;
+.logo img {
+  width: 100px;
+  height: auto;
 }
 
-.logo {
-  height: 70px;
-  width: auto;
+h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
 }
 
-.title h1 {
-  font-size: 2.5rem;
-  letter-spacing: 3px;
-}
-
-.subtitle {
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  color: #777;
-  letter-spacing: 2px;
-  text-align: center;
-}
-
-/* ——— Main Content ——— */
-main {
-  width: 90%;
-  max-width: 680px;
-  text-align: center;
-}
-
-.intro p {
-  font-size: 1.2rem;
-  margin-bottom: 3rem;
+.intro h2 {
+  font-weight: 400;
   color: #444;
+  max-width: 600px;
+  margin: 40px auto;
 }
 
-.essay-preview h2 {
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-}
-
-.read-more {
-  display: inline-block;
-  margin-top: 1rem;
-  color: #a00000;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.read-more:hover {
-  text-decoration: underline;
-}
-
-/* ——— Footer / Subscribe ——— */
-footer {
-  margin-top: auto;
-  padding: 3rem 0;
-  width: 100%;
-  text-align: center;
+.subscribe {
+  background: #f7f7f7;
+  padding: 40px 20px;
   border-top: 1px solid #ddd;
-}
-
-.subscribe h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
 }
 
 .subscribe form {
-  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .subscribe input {
-  padding: 0.5rem 1rem;
-  border: 1px solid #aaa;
-  border-radius: 2px;
-  width: 220px;
-  font-family: inherit;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
 }
 
 .subscribe button {
-  padding: 0.5rem 1.2rem;
-  margin-left: 0.5rem;
-  background-color: #a00000;
+  padding: 10px 20px;
+  background-color: #111;
   color: white;
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   cursor: pointer;
-  font-family: inherit;
 }
 
-.subscribe button:hover {
-  background-color: #800000;
-}
-
-.copyright {
-  margin-top: 2rem;
+footer {
+  padding: 20px;
+  font-size: 0.9em;
   color: #777;
-  font-size: 0.85rem;
 }
